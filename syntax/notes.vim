@@ -27,7 +27,7 @@ syn match notesAssignment "\w*\ze\([!+\-]\)*=\{1,3\}"
 syn region notesString start=+\(\w\)\@<![uU]\=\z([`'"]\)+ end="\z1" skip="\\\\\|\\\z1" contains=notesTodo,notesNumber,notesIssue,notesAssignment,@notesInline
 
 " Markdown style > block quotes
-syn match notesBlockquote ">\%(\s\|$\).*" contains=notesTodo,notesNumber,notesIssue,notesAssignment,@notesInline
+syn match notesBlockquote "^\s*>\%(\s\|$\).*" contains=notesTodo,notesNumber,notesIssue,notesAssignment,@notesInline
 
 hi notesTodo ctermfg=132 cterm=bold
 hi def link notesComment Comment
