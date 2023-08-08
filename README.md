@@ -8,16 +8,16 @@ Simple syntax highlighting for plain text notetaking.
 - Assignments, `k=v` for variables or similar stuff
 - Strings enclosed in quotes, backticks or starting with `>` like Markdown
 - `#` commented lines
-- URLs, emails and UNIX paths (credits to https://github.com/xolox/vim-notes)
+- URLs, emails and UNIX paths (credits to [xolox/vim-notes](https://github.com/xolox/vim-notes))
 
 For anything more complex probably use something like Markdown instead, or
-perhaps check out https://github.com/xolox/vim-notes
+perhaps check out [xolox/vim-notes](https://github.com/xolox/vim-notes)
 
 ## Installation
 
 Use whatever plugin manager you prefer. I like [vim-plug](https://github.com/junegunn/vim-plug):
 
-```
+```viml
 Plug 'timss/notes.vim'
 ```
 
